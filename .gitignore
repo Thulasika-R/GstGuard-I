@@ -1,0 +1,31 @@
+
+# Python virtual environments
+backend/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Trained models - regenerate locally
+ml/*.pkl
+ml/*.joblib
+
+# Local datasets and invoice data
+data/*
+!data/.gitkeep
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs and editor files
+*.log
+.vscode/
+.DS_Store
